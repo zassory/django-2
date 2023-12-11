@@ -1,0 +1,34 @@
+1 Instalaciones
+ 1.1 python
+ 1.2 Visual Studio Code
+   1.2.1 Extensiones
+     1.2.1.1 Material Icon Theme
+     1.2.1.2 Auto Close Tag
+     1.2.1.3 Html Css Support
+     1.2.1.4 IntelliSense for Css
+     1.2.1.5 Live Server
+     1.2.1.6 Javascript Snipets
+     1.2.1.7 Pylance
+     1.2.1.8 Python
+     1.2.1.9 Python Indent
+ 
+ 1.3 SqlLiteDB Browser (Portable)
+
+-------Creacion del programa-------
+1. python --version
+2. py -m venv venv
+3. .\venv\Scripts\activate
+4. venv pip install django
+5. venv django-admin --version
+6. venv django-admin startproject nombreprojecto .
+7. venv python manage.py runserver puerto
+
+--------Crear aplicación-----------
+1. venv py manage.py startapp nombreapp
+2. en el settings principal añadir mi app
+3. En mi views 
+   def helloword(request):
+      return render(request, 'signup.html')
+4. Crear folder template con un html y llamarlo de este modo
+5. Se le puede pasar parametro declarandolo y enviandolo despues
+   del html como un objeto de js
